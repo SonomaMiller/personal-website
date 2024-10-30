@@ -1,0 +1,126 @@
+nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 5rem;
+    background-color: #440D0F;
+    border: 2px solid #F0D8D8;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    size: 2.5rem;
+    padding-right: 2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav h3 {
+    margin: 0;
+}
+
+.active {
+    color: #F0D8D8;
+}
+
+footer {
+    color: #B49197;
+    text-align: center;
+    font-family: 'Spectral SC', 'Times', serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #191716;
+    position: static;
+    padding: 0.5rem 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Newsreader', 'Courier', serif;
+    color: #FFF;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Spectral SC', 'Times', serif;
+    color: #B49197;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 20px 0;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+h3 {
+    color: #B49197;
+    font-family: 'Spectral SC', 'Times', serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a {
+    color: #FFF;
+}
+
+a:hover, a:hover:visited {
+    color: #F0D8D8;
+}
+
+a:visited {
+    color: #B49197;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: #440D0F;
+}
+
+#download, #download img {
+    width: 60rem;
+    height: 18rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10rem 20px 10rem;
+}
+
+#download a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    background-color: #191716;
+    padding: 40px 40px;
+    text-align: center;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Newsreader', 'Courier', serif;
+    font-size: 35.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
