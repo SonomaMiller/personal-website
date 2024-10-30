@@ -150,6 +150,11 @@ body, html {
     color: #F0D8D8;
     font-size: 1.56rem;
     font-weight: 400;
+    margin-top: 1rem;
+}
+
+.project a, #business a {
+    text-decoration: none;
 }
 
 .project-description {
@@ -159,4 +164,27 @@ body, html {
     color: white;
     font-size: 2rem;
     font-weight: 400;
+}
+
+#business div div {
+    display: flex;
+    width: 60rem;
+    height: 6.3rem;
+    border: 4.45px solid #B49197;
+    background: #191716;
+    flex-direction: column;
+    justify-content: center;
+    color: #F0D8D8;
+    text-align: center;
+    font-family: 'Spectral SC', 'Times', serif;
+    font-size: 2.225rem;
+    margin: .5rem;
+    text-wrap: nowrap;
+}
+
+#business-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
