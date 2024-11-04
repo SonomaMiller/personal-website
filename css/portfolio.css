@@ -1,190 +1,190 @@
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 35rem;
-    height: 5rem;
-    background-color: #440D0F;
-    border: 2px solid #B49197;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 35rem;
+  height: 5rem;
+  background-color: #440D0F;
+  border: 2px solid #B49197;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  z-index: 10;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    size: 2.5rem;
+  text-decoration: none;
+  color: white;
+  size: 2.5rem;
 }
 
 nav a:hover {
-    color: #F0D8D8;
-    text-decoration: underline;
+  color: #F0D8D8;
+  text-decoration: underline;
 }
 
 nav h3 {
-    margin: 0 .5em;
+  margin: 0 .5em;
 }
 
 footer {
-    color: #B49197;
-    text-align: center;
-    font-family: 'Spectral SC', 'Times', serif;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background-color: #191716;
-    position: static;
-    padding: 0.5rem 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  color: #B49197;
+  text-align: center;
+  font-family: 'Spectral SC', 'Times', serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #191716;
+  position: static;
+  padding: 0.5rem 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 h1 {
-    font-family: 'Newsreader', 'Courier', serif;
-    color: #FFF;
-    font-size: 6rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
+  font-family: 'Newsreader', 'Courier', serif;
+  color: #FFF;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
 }
 
 h2 {
-    font-family: 'Spectral SC', 'Times', serif;
-    color: #B49197;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0 0 20px 0;
-    word-wrap: break-word;
-    margin: 0;
+  font-family: 'Spectral SC', 'Times', serif;
+  color: #B49197;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 20px 0;
+  word-wrap: break-word;
+  margin: 0;
 }
 
 h3 {
-    color: #B49197;
-    font-family: 'Spectral SC', 'Times', serif;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #B49197;
+  font-family: 'Spectral SC', 'Times', serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 a {
-    color: #FFF;
+  color: #FFF;
 }
 
 a:hover, a:hover:visited {
-    color: #F0D8D8;
+  color: #F0D8D8;
 }
 
 a:visited {
-    color: #B49197;
+  color: #B49197;
 }
 
 body, html {
-    margin: 0;
-    height: 100%;
-    background-color: #440D0F;
+  margin: 0;
+  height: 100%;
+  background-color: #440D0F;
 }
 
 #design, #business, #analytics {
-    width: 90%;
-    margin: 0 auto 3rem;
-    border: 3px solid #B49197;
-    padding: 3rem;
-    box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto 3rem;
+  border: 3px solid #B49197;
+  padding: 3rem;
+  box-sizing: border-box;
 }
 
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px 0;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+  align-items: center;
+  gap: 20px;
 }
 
 .project {
-    display: flex;
-    gap: 1em;
-    align-items: center;
-    align-items: flex-start;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  align-items: flex-start;
 }
 
 .project-card {
-    display: flex;
-    width: 19rem;
-    height: 20rem;
-    background-color: #191716;
-    border: 1px solid #F0D8D8;
-    opacity: 0.8;
-    margin: 15px;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 100%;
+  display: flex;
+  width: 19rem;
+  height: 20rem;
+  background-color: #191716;
+  border: 1px solid #F0D8D8;
+  opacity: 0.8;
+  margin: 15px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 100%;
 }
 
 .project-card img {
-    width: 15.6rem;
-    height: 13.8rem;
-    flex-shrink: 0;
-    object-fit: cover;
-    border: 1px solid #FFF;
+  width: 15.6rem;
+  height: 13.8rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  border: 1px solid #FFF;
 }
 
 .project-title {
-    text-align: center;
-    width: 100%;
-    text-decoration: none;
-    font-family: 'Spectral SC', 'Times', serif;
-    color: #F0D8D8;
-    font-size: 1.56rem;
-    font-weight: 400;
-    margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  font-family: 'Spectral SC', 'Times', serif;
+  color: #F0D8D8;
+  font-size: 1.56rem;
+  font-weight: 400;
+  margin-top: 1rem;
 }
 
 .project a, #business a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .project-description {
-    width: 42rem;
-    height: 18rem;
-    font-family: 'Newsreader', 'Courier', serif;
-    color: white;
-    font-size: 2rem;
-    font-weight: 400;
+  width: 42rem;
+  height: 18rem;
+  font-family: 'Newsreader', 'Courier', serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 #business div div {
-    display: flex;
-    width: 60rem;
-    height: 6.3rem;
-    border: 4.45px solid #B49197;
-    background: #191716;
-    flex-direction: column;
-    justify-content: center;
-    color: #F0D8D8;
-    text-align: center;
-    font-family: 'Spectral SC', 'Times', serif;
-    font-size: 2.225rem;
-    margin: .5rem;
-    text-wrap: nowrap;
+  display: flex;
+  width: 60rem;
+  height: 6.3rem;
+  border: 4.45px solid #B49197;
+  background: #191716;
+  flex-direction: column;
+  justify-content: center;
+  color: #F0D8D8;
+  text-align: center;
+  font-family: 'Spectral SC', 'Times', serif;
+  font-size: 2.225rem;
+  margin: .5rem;
+  text-wrap: nowrap;
 }
 
 #business-projects {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
