@@ -121,8 +121,8 @@ body, html {
 
 .project-card {
   display: flex;
-  width: 19rem;
-  height: 20rem;
+  width: 18rem;
+  height: 15rem;
   background-color: #191716;
   border: 1px solid #F0D8D8;
   opacity: 0.8;
@@ -135,8 +135,8 @@ body, html {
 }
 
 .project-card img {
-  width: 15.6rem;
-  height: 13.8rem;
+  width: 16rem;
+  height: 11rem;
   flex-shrink: 0;
   object-fit: cover;
   border: 1px solid #FFF;
@@ -166,7 +166,7 @@ body, html {
   font-weight: 400;
 }
 
-#business div div {
+#business div div, #business div a div {
   display: flex;
   width: 60rem;
   height: 6.3rem;
