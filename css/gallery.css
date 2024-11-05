@@ -37,7 +37,7 @@ footer {
   font-weight: 400;
   background-color: #191716;
   position: static;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -46,15 +46,15 @@ footer {
 h1 {
   font-family: 'Newsreader', 'Courier', serif;
   color: #FFF;
-  font-size: 6rem;
+  font-size: 3rem;
   font-weight: 400;
   margin: 0;
 }
 
-h2 {
+h2, #title {
   font-family: 'Spectral SC', 'Times', serif;
   color: #B49197;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   margin: 0 0 20px 0;
   word-wrap: break-word;
@@ -88,10 +88,38 @@ body, html {
 }
 
 img {
-  width: 150px;
+  width: 200px;
+  height: auto;
+}
+
+#seven img, #three img {
+  width: 250px;
   height: auto;
 }
 
 .art {
   margin-bottom: 10px;
+  display: inline-block;
+}
+
+#gallery-container {
+  display: flex;
+  padding-top: 4rem;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#gallery-wall {
+  border-radius: 50%;
+  contain: layout;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  margin: 3rem 0 0 3rem;
 }
