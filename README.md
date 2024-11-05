@@ -10,4 +10,4 @@ Outside of school, I love to backpack all over Washington; one of my favorite tr
 I also love plants- you can see a houseplant from any point in my house, and this year, I'm starting an outdoor garden!
 Music is a long-time obsession of mine; currently, my favorite artists are Sublime and Aphex Twin. 
 
-[You can connect with me on LinkedIn!]([url](https://www.linkedin.com/in/sonoma-miller/))
+[You can connect with me on LinkedIn!](https://www.linkedin.com/in/sonoma-miller/)
