@@ -197,7 +197,7 @@ header img {
 }
 
 .cards a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #a-little-more .card-title {
