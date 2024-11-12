@@ -211,3 +211,9 @@ header img {
     font-weight: 400;
     line-height: normal;
 }
+
+@media (min-width: 768px) {
+    #warning {
+        display: none;
+    }
+}
