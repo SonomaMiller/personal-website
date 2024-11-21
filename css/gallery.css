@@ -1,125 +1,161 @@
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 35rem;
-  height: 5rem;
-  background-color: #440D0F;
-  border: 2px solid #B49197;
-  margin-top: 1rem;
-  margin-right: 1rem;
-  z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35rem;
+    height: 5rem;
+    background-color: #440D0F;
+    border: 2px solid #B49197;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    z-index: 10;
 }
 
 nav a {
-  text-decoration: none;
-  color: white;
-  size: 2.5rem;
+    text-decoration: none;
+    color: white;
+    size: 2.5rem;
 }
 
 nav a:hover {
-  color: #F0D8D8;
-  text-decoration: underline;
+    color: #F0D8D8;
+    text-decoration: underline;
 }
 
 nav h3 {
-  margin: 0 .5em;
+    margin: 0 .5em;
 }
 
 footer {
-  color: #B49197;
-  text-align: center;
-  font-family: 'Spectral SC', 'Times', serif;
-  font-size: 2rem;
-  font-weight: 400;
-  background-color: #191716;
-  position: static;
-  padding: .5rem 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    color: #B49197;
+    text-align: center;
+    font-family: 'Spectral SC', 'Times', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: #191716;
+    position: static;
+    padding: .5rem 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 h1 {
-  font-family: 'Newsreader', 'Courier', serif;
-  color: #FFF;
-  font-size: 3rem;
-  font-weight: 400;
-  margin: 0;
+    font-family: 'Newsreader', 'Courier', serif;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
 }
 
-h2, #title {
-  font-family: 'Spectral SC', 'Times', serif;
-  color: #B49197;
-  font-size: 2rem;
-  font-weight: 400;
-  margin: 0 0 20px 0;
-  word-wrap: break-word;
-  margin: 0;
+h2,
+#title {
+    font-family: 'Spectral SC', 'Times', serif;
+    color: #B49197;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    word-wrap: break-word;
+    margin: 0;
 }
 
 h3 {
-  color: #B49197;
-  font-family: 'Spectral SC', 'Times', serif;
-  font-size: 2rem;
-  font-weight: 400;
+    color: #B49197;
+    font-family: 'Spectral SC', 'Times', serif;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 a {
-  color: #FFF;
+    color: #FFF;
 }
 
-a:hover, a:hover:visited {
-  color: #F0D8D8;
+a:hover,
+a:hover:visited {
+    color: #F0D8D8;
 }
 
 a:visited {
-  color: #B49197;
+    color: #B49197;
 }
 
-body, html {
-  margin: 0;
-  height: 100%;
-  opacity: 100%;
-  background-color: #440D0F;
+body,
+html {
+    margin: 0;
+    height: 100%;
+    opacity: 100%;
+    background-color: #440D0F;
 }
 
 img {
-  width: 200px;
-  height: auto;
+    width: 200px;
+    height: auto;
 }
 
-#seven img, #three img {
-  width: 250px;
-  height: auto;
+#seven img,
+#three img {
+    width: 250px;
+    height: auto;
 }
 
 .art {
-  margin-bottom: 10px;
-  display: inline-block;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 #gallery-container {
-  display: flex;
-  padding-top: 4rem;
-  width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
+    display: flex;
+    padding-top: 4rem;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 #gallery-wall {
-  border-radius: 50%;
-  contain: layout;
-  width: 100%;
-  margin: 0 auto;
+    border-radius: 50%;
+    contain: layout;
+    width: 100%;
+    margin: 0 auto;
 }
 
 header {
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
-  margin: 3rem 0 0 3rem;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 3rem 0 0 3rem;
+}
+
+@media (max-width: 568px) {
+    nav {
+        left: 0;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        margin: 3rem 1rem;
+    }
+
+    nav h3 {
+        font-size: 1.5rem;
+        margin: 1rem .5rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3,
+    p {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
 }
