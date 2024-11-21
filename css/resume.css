@@ -122,3 +122,34 @@ body, html {
     font-weight: 400;
     line-height: normal;
 }
+
+@media (max-width: 568px) {
+    nav {
+        left: 0;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        margin: 3rem 1rem;
+    }
+
+    nav h3 {
+        font-size: 1.5rem;
+        margin: 1rem .5rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3, p {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}

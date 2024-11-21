@@ -229,12 +229,6 @@ header img {
 }
 
 @media (max-width: 568px) {
-    main {
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
     nav {
         left: 0;
         flex-wrap: wrap;
