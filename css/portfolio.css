@@ -95,13 +95,16 @@ a:visited {
 body, html {
   margin: 0;
   height: 100%;
-  background-color: #440D0F;
+  background-image: url("../img/cathedral.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #design, #business, #analytics {
   width: 90%;
   margin: 0 auto 3rem;
   border: 3px solid #B49197;
+  background-color: #440D0F;
   padding: 3rem;
   box-sizing: border-box;
 }
