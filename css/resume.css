@@ -94,33 +94,34 @@ body, html {
     background-color: #440D0F;
 }
 
-#download, #download img {
-    width: 60rem;
-    height: 18rem;
-    position: relative;
+#download {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 10rem 20px 10rem;
+    width: 100%; /* Take full width */
+    padding: 2rem;
 }
 
 #download a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 600px;
-    transform: translate(-50%, -50%);
+    display: inline-block;
     background-color: #191716;
-    padding: 40px 40px;
-    text-align: center;
+    padding: 1rem 2rem;
     text-align: center;
     color: #FFF;
     font-family: 'Newsreader', 'Courier', serif;
-    font-size: 35.6px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 20px solid transparent;
+    border-image-source: url('img/triumph-of-camillus.jpg');
+    border-image-slice: 30; /* Adjust slice values to control the parts of the image used */
+    border-image-repeat: stretch; /* Options: stretch, repeat, round, space */
+}
+
+#download a:hover {
+    background-color: #440D0F;
+    color: #F0D8D8;
 }
 
 @media (max-width: 568px) {
