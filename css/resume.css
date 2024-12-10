@@ -124,7 +124,7 @@ body, html {
     color: #F0D8D8;
 }
 
-@media (max-width: 568px) {
+@media (max-width: 768px) {
     nav {
         left: 0;
         flex-wrap: wrap;

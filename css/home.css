@@ -71,11 +71,11 @@ a {
     color: #FFF;
 }
 
-a:hover, a:hover:visited {
+a:hover {
     color: #F0D8D8;
 }
 
-a:visited {
+footer a {
     color: #B49197;
 }
 
