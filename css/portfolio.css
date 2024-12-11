@@ -311,4 +311,17 @@ html {
         text-wrap: wrap;
         border: 2px solid #B49197;
     }
+
+    #web, #spider {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 75px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #spider {
+        transition: opacity 0.5s ease;
+    }
 }
