@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         clearInterval(fadeIn);
 
         // Wait for the GIF to play once, then fade out
-        const gifDuration = 2950;
+        const gifDuration = 2900;
         setTimeout(() => {
           let fadeOut = setInterval(() => {
             if (spider.style.opacity > 0) {

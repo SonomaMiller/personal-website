@@ -136,6 +136,10 @@ header img {
     box-sizing: border-box;
 }
 
+#about, #a-little-more {
+    transition: margin-top 1s ease-in;
+}
+
 .welcome-intro {
     text-align: center;
     color: #FFF;
