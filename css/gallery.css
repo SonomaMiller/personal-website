@@ -106,7 +106,7 @@ img {
     display: inline-block;
 }
 
-#gallery-container {
+#gallery_container {
     display: flex;
     padding-top: 4rem;
     width: 100%;
@@ -114,7 +114,7 @@ img {
     box-sizing: border-box;
 }
 
-#gallery-wall {
+#gallery_wall {
     border-radius: 50%;
     contain: layout;
     width: 100%;

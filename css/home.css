@@ -127,7 +127,7 @@ header img {
     width: auto;
 }
 
-#about, #a-little-more {
+#about, #a_little_more {
     width: 90%;
     margin: 0 auto 3rem;
     border: 3px solid #B49197;
@@ -136,11 +136,11 @@ header img {
     box-sizing: border-box;
 }
 
-#about, #a-little-more {
+#about, #a_little_more {
     transition: margin-top 1s ease-in;
 }
 
-.welcome-intro {
+.welcome_intro {
     text-align: center;
     color: #FFF;
     font-family: 'Newsreader', 'Courier', serif;
@@ -170,7 +170,7 @@ header img {
     opacity: 100%;
 }
 
-#a-little-more .card {
+#a_little_more .card {
     display: flex;
     width: 19rem;
     height: 15.75rem;
@@ -192,7 +192,7 @@ header img {
     border: 1px solid #FFF;
 }
 
-#a-little-more .card img {
+#a_little_more .card img {
     width: 17.9rem;
     height: 10.4rem;
     flex-shrink: 0;
@@ -200,7 +200,7 @@ header img {
     border: 1px solid #FFF;
 }
 
-#about .card-title {
+#about .card_title {
     text-align: center;
     width: 100%;
     text-decoration: none;
@@ -214,7 +214,7 @@ header img {
     text-decoration: underline;
 }
 
-#a-little-more .card-title {
+#a_little_more .card_title {
     text-align: center;
     padding-top: .5em;
     width: 100%;
@@ -284,11 +284,11 @@ header img {
         font-size: 1rem;
     }
 
-    #a-little-more .card {
+    #a_little_more .card {
         width: 90%;
     }
 
-    #a-little-more .card img {
+    #a_little_more .card img {
         width: 12rem;
         height: 7rem;
         flex-shrink: 0;

@@ -143,7 +143,7 @@ html {
     align-items: flex-start;
 }
 
-.project-card {
+.project_card {
     display: flex;
     width: 18rem;
     height: 15rem;
@@ -157,7 +157,7 @@ html {
     opacity: 100%;
 }
 
-.project-card img {
+.project_card img {
     width: 16rem;
     height: 11rem;
     flex-shrink: 0;
@@ -165,7 +165,7 @@ html {
     border: 1px solid #FFF;
 }
 
-.project-title {
+.project_title {
     text-align: center;
     width: 100%;
     text-decoration: none;
@@ -181,7 +181,7 @@ html {
     text-decoration: none;
 }
 
-.project-description {
+.project_description {
     width: 30rem;
     height: 18rem;
     font-family: 'Newsreader', 'Courier', serif;
@@ -207,7 +207,7 @@ html {
     text-wrap: nowrap;
 }
 
-#business-projects {
+#business_projects {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -269,7 +269,7 @@ html {
         margin: 3px;
     }
 
-    .project-card {
+    .project_card {
         display: flex;
         width: 90%;
         height: 80%;
@@ -280,7 +280,7 @@ html {
         align-items: center;
     }
 
-    .project-card img {
+    .project_card img {
         width: 100%;
         height: 75%;
         flex-shrink: 0;
@@ -288,14 +288,14 @@ html {
         align-items: center;
     }
 
-    .project-title {
+    .project_title {
         width: 100%;
         font-size: 1rem;
         font-weight: 200;
         margin-top: .5rem;
     }
 
-    .project-description {
+    .project_description {
         width: 100%;
         height: auto;
         text-align: center;
