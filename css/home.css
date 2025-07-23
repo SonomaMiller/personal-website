@@ -186,6 +186,7 @@ header img {
     margin: 0 auto 3rem;
     padding: 3rem;
     width: 90%;
+    text-align: center;
 }
 
 .welcome_intro {
@@ -285,7 +286,24 @@ header img {
 @media only screen and (max-width: 768px) {
     nav {
         width: 100%;
-        heigh: auto;
+        height: 7rem;
+        padding: 0 1rem 1rem;
+        align-items: flex-end;
+        justify-content:space-around
+    }
+    
+    nav h3 {
+        font-size: 1.25rem;
+        margin: 0.25rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 1.1;
+    }
+
+    h2 {
+        font-size: 2rem;
     }
 
     footer {
@@ -304,5 +322,23 @@ header img {
         position: sticky;
         text-align: center;
         width: 100%;
+    }
+
+    header {
+        gap: 1rem;
+        padding: 10rem 1rem;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    #intro {
+        align-items: center;
+        gap: 0.5em;
+        width: 100%;
+    }
+
+    header img {
+        height: 8rem;
+        width: auto;
     }
 }
