@@ -1,3 +1,7 @@
+/* Import shared styles */
+@import url('shared.css');
+
+/* Gallery page specific styles */
 nav {
     display: flex;
     align-items: center;

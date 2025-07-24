@@ -1,50 +1,4 @@
-nav {
-    align-items: center;
-    background-color: #191716;
-    display: flex;
-    height: 5rem;
-    justify-content: center;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    position: fixed;
-    right: 0;
-    width: 35rem;
-    z-index: 10;
-}
-
-nav a, a {
-    color: #f0f0f0;
-    text-decoration: none;
-}
-
-nav a:hover, a:hover {
-    color: #949494;
-    text-decoration: none;
-}
-
-nav h3 {
-    color: #f0f0f0;
-    font-size: 1.75rem;
-    margin: 0.5rem;
-}
-
-footer {
-    align-items: center;
-    background-color: #191716;
-    box-sizing: border-box;
-    color: #f0f0f0;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Montserrat', serif;
-    font-size: 1rem;
-    font-weight: 400;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0.25rem 1rem;
-    position: sticky;
-    text-align: center;
-    width: 100%;
-}
+@import url('shared.css');
 
 .arrow {
     font-size: 3em;
@@ -63,21 +17,6 @@ footer {
 	100% {
 		opacity: 1;
 	}
-}
-
-@font-face {
-    font-family: 'Harmond';
-    src: url('../MilkyWalky-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1 {
-    color: #440D0F;
-    font-family: 'Harmond', sans-serif;
-    font-size: 9rem;
-    font-weight: bold;
-    margin: 0;
 }
 
 .split_text_container {
@@ -125,51 +64,6 @@ h1 {
     }
 }
 
-h2 {
-    color: #440D0F;
-    font-family: 'Montserrat', serif;
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 0;
-    word-wrap: break-word;
-}
-
-h3 {
-    color: #440D0F;
-    font-family: 'Montserrat', serif;
-    font-size: 2rem;
-    font-weight: 400;
-}
-
-html {
-    background-color: #f0f0f0;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-main {
-    flex: 1;
-}
-
-body {
-    margin: 0;
-    min-height: 100%;
-    padding: 0;
-    width: 100%;
-}
-
-header {
-    align-items: center;
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
-    margin-left: 5rem;
-    padding: 10rem 0;
-    text-align: left;
-}
-
 #intro {
     align-items: flex-start;
     display: flex;
@@ -185,17 +79,17 @@ header img {
     box-sizing: border-box;
     margin: 0 auto 3rem;
     padding: 3rem;
-    width: 90%;
+    width: 60%;
     text-align: center;
 }
 
 .welcome_intro {
-    color: #440D0F;
+    color: #191716;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
 }
 
 .cards {
@@ -212,11 +106,11 @@ header img {
     background-color: #191716;
     display: flex;
     flex-direction: column;
-    height: 12rem;
+    height: 14rem;
     justify-content: center;
     opacity: 100%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 16rem;
+    width: 18rem;
 }
 
 #about .card:hover {
@@ -227,7 +121,8 @@ header img {
 #a_little_more .card {
     align-items: center;
     border-radius: 1rem;
-    border: 1px solid #191716;
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
     display: flex;
     flex-direction: column;
     height: 18rem;
@@ -237,22 +132,22 @@ header img {
 }
 
 #about .card img {
-    border: 1px solid #949494;
+    border: 1px solid #e5e7eb;
     flex-shrink: 0;
-    height: 6.6rem;
+    height: 8.6rem;
     object-fit: cover;
-    width: 12rem;
+    width: 14rem;
 }
 
 #a_little_more .card img {
-    border: 1px solid #949494;
+    border: 1px solid #e5e7eb;
     height: 10.4rem;
     object-fit: cover;
     width: 17.9rem;
 }
 
 #about .card_title {
-    color: #f0f0f0;
+    color: #f3f4f6;
     font-family: 'Montserrat', serif;
     font-size: 2rem;
     font-weight: 400;
@@ -310,7 +205,7 @@ header img {
         align-items: center;
         background-color: #191716;
         box-sizing: border-box;
-        color: #f0f0f0;
+        color: #f3f4f6;
         display: flex;
         flex-wrap: wrap;
         font-family: 'Montserrat', serif;

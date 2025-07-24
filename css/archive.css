@@ -1,95 +1,12 @@
-nav {
-    align-items: center;
-    background-color: #191716;
-    display: flex;
-    height: 5rem;
-    justify-content: center;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    position: fixed;
-    right: 0;
-    width: 35rem;
-    z-index: 10;
-}
+@import url('shared.css');
 
-#navbar {
-    transition: top 0.3s;
-}
-
-nav a {
-    color: #f0f0f0;
-    text-decoration: none;
-}
-
-a {
-    color: #191716;
-    text-decoration: underline;
-}
-
-nav a:hover, a:hover {
-    color: #949494;
-    text-decoration: underline;
-}
-
-nav h3 {
-    color: #f0f0f0;
-    font-size: 1.75rem;
-    margin: 0.5rem;
-}
-
-h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bolder;
-    color: #440D0F;
-    font-size: 6rem;
-    font-weight: 400;
-    margin: 0;
-    padding-top: 8rem;
-    padding-left: 5%;
-    padding-bottom: 0;
-}
-
-h2 {
-    color: #440D0F;
-    font-family: 'Montserrat', serif;
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 0;
-    word-wrap: break-word;
-}
-
-h3 {
-    color: #440D0F;
-    font-family: 'Montserrat', serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-html {
-    background-color: #f0f0f0;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-main {
-    flex: 1;
-}
-
-body {
-    margin: 0;
-    min-height: 100%;
-    width: 100%;
-}
-
-p {
+.project p {
     color: #191716;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     height: 18rem;
-    width: 30rem;
+    width: 40rem;
 }
 
 .projects {
@@ -111,4 +28,45 @@ p {
     justify-content: left;
     padding-bottom: 3rem;
     width: 50%;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    h1 {
+        padding-top: 6rem;
+        padding-left: 1rem;
+        text-align: center;
+    }
+
+    .projects {
+        margin-top: 3rem;
+        padding: 0 1rem;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tableau_placeholder {
+        width: 100%;
+        justify-content: center;
+    }
+
+    p {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+        padding-top: 5rem;
+    }
+
+    .projects {
+        margin-top: 2rem;
+    }
 }
