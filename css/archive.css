@@ -31,7 +31,7 @@
 }
 
 /* mobile */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     h1 {
         padding-top: 6rem;
         padding-left: 1rem;
@@ -47,6 +47,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
 
     .tableau_placeholder {
@@ -54,19 +55,9 @@
         justify-content: center;
     }
 
-    p {
-        max-width: 100%;
+    .project p {
+        width: 90%;
         padding: 0 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 2.5rem;
-        padding-top: 5rem;
-    }
-
-    .projects {
-        margin-top: 2rem;
+        font-size: 1rem;
     }
 }
