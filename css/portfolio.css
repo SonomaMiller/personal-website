@@ -18,7 +18,7 @@ a {
     width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .projects {
@@ -29,14 +29,15 @@ a {
     gap: 20px;
     justify-content: center;
     margin: 20px auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 .project {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1em;
+    width: 70%;
 }
 
 .project_card {
@@ -79,6 +80,7 @@ a {
 
 #business a {
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .project_description {
@@ -89,14 +91,15 @@ a {
     height: auto;
     width: 100%;
     max-width: 60rem;
-    text-align: center;
+    text-align: left;
 }
 
 #business div div,
 #business div a div {
+    background-color: #fff;
     border-radius: 1rem;
     border: 1px solid #e5e7eb;
-    background-color: #fff;
+    box-sizing: border-box;
     color: #191716;
     display: flex;
     flex-direction: column;
@@ -105,19 +108,20 @@ a {
     height: 6.3rem;
     justify-content: center;
     margin: .5rem;
-    text-align: center;
-    padding: 1rem;
-    box-sizing: border-box;
-    width: 100%;
     max-width: 40rem;
     overflow: hidden;
+    padding: 1rem;
+    text-align: center;
+    width: 100rem;
 }
 
 #business_projects {
     align-items: center;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -126,6 +130,7 @@ a {
     #analytics {
         width: 100%;
         padding: 1rem;
+        align-items: center;
     }
 
     .projects {
@@ -137,5 +142,6 @@ a {
         width: 100%;
         height: auto;
         font-size: 1rem;
+        text-align: center;
     }
 }
