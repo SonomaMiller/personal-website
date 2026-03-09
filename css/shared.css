@@ -81,7 +81,7 @@ a {
 nav a:hover,
 a:hover {
     color: #191716;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 nav a {
