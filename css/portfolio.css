@@ -5,6 +5,11 @@ p a {
     text-decoration: underline;
 }
 
+footer a {
+    color: #f3f4f6;
+    text-decoration: none;
+}
+
 .section-title {
     justify-content: center;
 }
