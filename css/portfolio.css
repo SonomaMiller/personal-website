@@ -5,7 +5,7 @@ p a {
     text-decoration: underline;
 }
 
-footer a {
+footer{
     color: #f3f4f6;
     text-decoration: none;
 }
@@ -15,7 +15,6 @@ footer a {
 }
 
 #design,
-#business,
 #analytics {
     box-sizing: border-box;
     margin: 0 auto 3rem;
@@ -49,6 +48,7 @@ footer a {
     align-items: center;
     background-color: #191716;
     border: 1px solid #e5e7eb;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     height: 15rem;
@@ -83,11 +83,6 @@ footer a {
     width: 100%;
 }
 
-#business a {
-    text-decoration: none;
-    font-size: 1rem;
-}
-
 .project_description {
     color: #191716;
     font-family: 'Quicksand', sans-serif;
@@ -99,39 +94,8 @@ footer a {
     text-align: left;
 }
 
-#business div div,
-#business div a div {
-    background-color: #fff;
-    border-radius: 1rem;
-    border: 1px solid #e5e7eb;
-    box-sizing: border-box;
-    color: #191716;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Montserrat', serif;
-    font-size: 1.5rem;
-    height: 6.3rem;
-    justify-content: center;
-    margin: .5rem;
-    max-width: 40rem;
-    overflow: hidden;
-    padding: 1rem;
-    text-align: center;
-    width: 100rem;
-}
-
-#business_projects {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-}
-
 @media only screen and (max-width: 768px) {
     #design,
-    #business,
     #analytics {
         width: 100%;
         padding: 1rem;
