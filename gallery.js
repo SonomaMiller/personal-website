@@ -1,33 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
-    id("title").textContent = "";
-    const grid = document.querySelector('#gallery-wall');
+    const title = document.getElementById("title");
+    const grid = document.getElementById("gallery_wall");
     const paintings = document.querySelectorAll('.art img');
-    const masonry = new Masonry(grid, {
+    new Masonry(grid, {
       itemSelector: '.art',
       columnWidth: 200,
       gutter: 10
     });
 
     paintings.forEach(painting => {
-        painting.addEventListener('mouseover', function() {
-            let src = painting.src;
-            let fileName = src.substring(src.lastIndexOf('/') + 1);
-            fileName = decodeURIComponent(fileName).replace('.jpg', '');
-            id("title").textContent = fileName;
-        });
+        const fileName = painting.src.substring(painting.src.lastIndexOf('/') + 1);
+        const paintingTitle = decodeURIComponent(fileName).replace('.jpg', '');
+        function showTitle() {
+            title.textContent = paintingTitle;
+        }
+        painting.addEventListener('mouseover', showTitle);
+        painting.addEventListener('click', showTitle);
     });
-
-
-    paintings.forEach(painting => {
-        painting.addEventListener('click', function() {
-            let src = painting.src;
-            let fileName = src.substring(src.lastIndexOf('/') + 1);
-            fileName = decodeURIComponent(fileName).replace('.jpg', '');
-            id("title").textContent = fileName;
-        });
-    });
-
-    function id(id) {
-        return document.getElementById(id);
-    }
 });

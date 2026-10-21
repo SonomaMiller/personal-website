@@ -23,9 +23,6 @@
 }
 
 .tableau_placeholder {
-    align-items: left;
-    height: auto;
-    justify-content: left;
     padding-bottom: 3rem;
     width: 50%;
 }
@@ -52,7 +49,6 @@
 
     .tableau_placeholder {
         width: 100%;
-        justify-content: center;
     }
 
     .project p {

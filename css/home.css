@@ -3,9 +3,7 @@
 .arrow {
     font-size: 3em;
     color: #191716;
-    opacity: 1;
     animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 2s;
 }
@@ -23,13 +21,11 @@
 .split_text_container {
     display: flex;
     text-transform: uppercase;
-    overflow: visible;
 }
 
 .text_part {
     display: inline-block;
     position: relative;
-    transform: translateX(0);
     animation-duration: 2s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
@@ -73,11 +69,6 @@
     gap: 1em;
 }
 
-header img {
-    height: 15rem;
-    width: auto;
-}
-
 #about,
 #a_little_more {
     box-sizing: border-box;
@@ -94,91 +85,6 @@ header img {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-}
-
-.cards {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-#about .card {
-    align-items: center;
-    background-color: #191716;
-    display: flex;
-    flex-direction: column;
-    height: 14rem;
-    justify-content: center;
-    opacity: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 18rem;
-}
-
-#about .card:hover {
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
-    transform: translateY(-10px);
-}
-
-#a_little_more .card {
-    align-items: center;
-    border-radius: 1rem;
-    background-color: #fff;
-    border: 1px solid #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    height: 18rem;
-    justify-content: center;
-    padding: 20px;
-    width: 20rem;
-}
-
-#about .card img {
-    border: 1px solid #e5e7eb;
-    flex-shrink: 0;
-    height: 8.6rem;
-    object-fit: cover;
-    width: 14rem;
-}
-
-#a_little_more .card img {
-    border: 1px solid #e5e7eb;
-    height: 10.4rem;
-    object-fit: cover;
-    width: 17.9rem;
-}
-
-#about .card_title {
-    color: #f3f4f6;
-    font-family: 'Montserrat', serif;
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-}
-
-#a_little_more .card_title {
-    color: #191716;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: .5em;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-}
-
-#a_little_more a {
-    color: #191716;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: underline;
 }
 
 /* mobile */
@@ -198,25 +104,5 @@ header img {
 
     .welcome_intro {
         font-size: 1rem;
-    }
-
-    #a_little_more .card_title,
-    #a_little_more a {
-        font-size: 1.25rem;
-
-    }
-
-    #a_little_more .card {
-        align-items: center;
-        border-radius: 1rem;
-        height: 15rem;
-        justify-content: center;
-        padding: 20px;
-        width: 20rem;
-    }
-
-    header img {
-        height: 8rem;
-        width: auto;
     }
 }

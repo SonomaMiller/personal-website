@@ -21,7 +21,7 @@
             <div><a href="portfolio.html">
                     <h3>Portfolio</h3>
                 </a></div>
-            <div class="active"><a href="archive.html">
+            <div><a href="archive.html">
                     <h3>Archive</h3>
                 </a></div>
             <div><a href="./pdf/sonoma-miller-resume.pdf" target="_blank" rel="noopener">
@@ -62,9 +62,18 @@
                     <param name="filter" value="publish=yes" />
                 </object>
             </div>
-            <script
-                type="text/javascript"> var divElement = document.getElementById("viz1746225543086"); var vizElement = divElement.getElementsByTagName("object")[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = "1000px"; vizElement.style.height = "827px"; } else if (divElement.offsetWidth > 500) { vizElement.style.width = "1000px"; vizElement.style.height = "827px"; } else { vizElement.style.width = "100%"; vizElement.style.height = "777px"; } var scriptElement = document.createElement("script"); scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js"; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
-            <div class="descripton">
+            <script>
+                const container = document.getElementById("viz1746225543086");
+                const visualization = container.querySelector("object");
+                const wideLayout = container.offsetWidth > 500;
+                visualization.style.width = wideLayout ? "1000px" : "100%";
+                visualization.style.height = wideLayout ? "827px" : "777px";
+
+                const tableauScript = document.createElement("script");
+                tableauScript.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+                visualization.parentNode.insertBefore(tableauScript, visualization);
+            </script>
+            <div>
                 <h2>Drug Overdose</h2>
                 <h3>5/2/2025</h3>
                 <p>

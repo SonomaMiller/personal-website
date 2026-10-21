@@ -1,19 +1,5 @@
 @import url('shared.css');
 
-p a {
-    color: #191716;
-    text-decoration: underline;
-}
-
-footer a {
-    color: #f3f4f6;
-    text-decoration: none;
-}
-
-.section-title {
-    justify-content: center;
-}
-
 #design,
 #analytics {
     box-sizing: border-box;
@@ -22,7 +8,6 @@ footer a {
     width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: left;
 }
 
 .projects {
@@ -39,7 +24,6 @@ footer a {
 .project {
     align-items: center;
     display: flex;
-    flex-direction: row;
     gap: 1em;
     width: 70%;
 }
@@ -88,7 +72,6 @@ footer a {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
-    height: auto;
     width: 100%;
     max-width: 60rem;
     text-align: left;
@@ -103,13 +86,10 @@ footer a {
     }
 
     .projects {
-        flex-direction: column;
         gap: 10px;
     }
 
     .project_description {
-        width: 100%;
-        height: auto;
         font-size: 1rem;
         text-align: center;
     }
